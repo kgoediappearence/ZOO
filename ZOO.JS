@@ -18,3 +18,7 @@ function calculatePrice() {
 
     document.getElementById('price').innerHTML = `Entry Price: ${price}`;
 }
+
+    const totalCost = pricePerTicket * quantity;
+    document.getElementById('price').innerHTML = `Total Entry Price: R${totalCost}`;
+}
